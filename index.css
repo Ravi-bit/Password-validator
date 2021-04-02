@@ -1,0 +1,105 @@
+.o {
+    display: none;
+}
+
+.c {
+    margin: 5px;
+}
+
+.no {
+    display: none;
+}
+
+#invalid {
+    color: red;
+}
+
+#valid {
+    color: green;
+}
+
+#validicon {
+    display: none;
+    color: green;
+}
+
+#invalidicon {
+    display: none;
+    color: red
+}
+
+.box {
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.istyle {
+    position: relative;
+    right: -105px;
+    top: -35px;
+    cursor: pointer;
+}
+
+#not2 {
+    display: none;
+}
+
+.inside {
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 5%;
+    width: 58%;
+    text-align: center;
+    box-shadow: 2px 5px 10px 0 rgba(226, 72, 72, 0.945);
+}
+
+.inside:hover,
+.inside:focus {
+    box-shadow: 2px 5px 10px 0 rgba(5, 15, 110, 0.945);
+}
+
+.inst {
+    display: inline-block;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1280px) {
+    body {
+        display: block;
+    }
+}
+
+.head {
+    font-family: 'Metal Mania', cursive;
+}
+
+.stren {
+    margin: 0px;
+    font-family: 'Teko', sans-serif;
+}
+
+.pro {
+    padding: 20px;
+    width: 17%;
+}
+
+.load {
+    display: none;
+}
+
+.insthead {
+    margin-top: 5px;
+    font-family: 'Piedra', cursive;
+    text-decoration: underline;
+}
+
+.in {
+    font-family: 'Teko', sans-serif;
+}
+
+#curr {
+    margin: 0px;
+    font-weight: bolder;
+}
